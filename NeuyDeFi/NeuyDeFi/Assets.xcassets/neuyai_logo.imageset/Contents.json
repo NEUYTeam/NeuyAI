@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "neuy_logo_white_text_512_512.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

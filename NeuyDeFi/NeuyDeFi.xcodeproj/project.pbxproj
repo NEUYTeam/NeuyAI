@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E91F3B00285D48F500145118 /* IndicatorPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F3AF8285D48F500145118 /* IndicatorPoint.swift */; };
+		E91F3B01285D48F500145118 /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F3AF9285D48F500145118 /* LineView.swift */; };
+		E91F3B02285D48F500145118 /* Legend.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F3AFA285D48F500145118 /* Legend.swift */; };
+		E91F3B03285D48F500145118 /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F3AFB285D48F500145118 /* LineChartView.swift */; };
+		E91F3B04285D48F500145118 /* MagnifierRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F3AFC285D48F500145118 /* MagnifierRect.swift */; };
+		E91F3B05285D48F500145118 /* Path+QuadCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F3AFD285D48F500145118 /* Path+QuadCurve.swift */; };
+		E91F3B06285D48F500145118 /* MultiLineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F3AFE285D48F500145118 /* MultiLineChartView.swift */; };
+		E91F3B07285D48F500145118 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F3AFF285D48F500145118 /* Line.swift */; };
+		E91F3B09285D495B00145118 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F3B08285D495B00145118 /* Helpers.swift */; };
+		E936F8642860CA29005688C3 /* NeuyCryptoDetailsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E936F8632860CA28005688C3 /* NeuyCryptoDetailsManager.swift */; };
+		E936F8682860D8E5005688C3 /* NeuyCryptoDetailsGraphItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E936F8672860D8E5005688C3 /* NeuyCryptoDetailsGraphItem.swift */; };
+		E936F86B2863AA49005688C3 /* UIImage+Saving.swift in Sources */ = {isa = PBXBuildFile; fileRef = E936F86A2863AA49005688C3 /* UIImage+Saving.swift */; };
+		E936F86D2863BADE005688C3 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E936F86C2863BADE005688C3 /* Launch Screen.storyboard */; };
+		E936F86F2863D0B7005688C3 /* SecurityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E936F86E2863D0B7005688C3 /* SecurityManager.swift */; };
+		E93B0B99285AB8CE003CBDCC /* SwiftKeychainWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = E93B0B98285AB8CE003CBDCC /* SwiftKeychainWrapper */; };
+		E93B0B9B285AC7E7003CBDCC /* NeuyFavoritesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B0B9A285AC7E7003CBDCC /* NeuyFavoritesManager.swift */; };
+		E93B0B9F285ACC4E003CBDCC /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B0B9E285ACC4E003CBDCC /* SettingsScreen.swift */; };
+		E93B0BA1285ACCC9003CBDCC /* CryptoDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B0BA0285ACCC9003CBDCC /* CryptoDetailsScreen.swift */; };
+		E96A9AD628FCA55B00EA9955 /* LiquidityPoolsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96A9AD528FCA55B00EA9955 /* LiquidityPoolsManager.swift */; };
+		E96A9AD828FCD70C00EA9955 /* LiquidityPoolListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96A9AD728FCD70C00EA9955 /* LiquidityPoolListItem.swift */; };
+		E96A9ADA28FCE16F00EA9955 /* LiquidityPoolsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96A9AD928FCE16F00EA9955 /* LiquidityPoolsScreen.swift */; };
+		E9A588C528729EFC001C6558 /* QuickLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A588C428729EFC001C6558 /* QuickLink.swift */; };
+		E9A588C928733CE4001C6558 /* StakingListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A588C828733CE4001C6558 /* StakingListItemView.swift */; };
+		E9A588CF28754319001C6558 /* NeuyFriendAddressManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A588CE28754319001C6558 /* NeuyFriendAddressManager.swift */; };
+		E9A588D128754399001C6558 /* FriendAddressListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A588D028754399001C6558 /* FriendAddressListItem.swift */; };
+		E9B477AA2869E7E600CEAFE9 /* SegmentButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B477A92869E7E600CEAFE9 /* SegmentButtonView.swift */; };
+		E9B477AC2869E89600CEAFE9 /* NeuyDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B477AB2869E89600CEAFE9 /* NeuyDataManager.swift */; };
+		E9BA274628764E1800C53EC6 /* Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BA274528764E1800C53EC6 /* Blur.swift */; };
+		E9C61DAF2B43EEFC0033B2EC /* NSBundle+Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C61DAE2B43EEFC0033B2EC /* NSBundle+Version.swift */; };
+		E9D3E9EA28ABE416008B8A0E /* View+BecomingVisible.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D3E9E928ABE416008B8A0E /* View+BecomingVisible.swift */; };
+		E9D66C93285243330038BE9F /* CryptosScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D66C92285243330038BE9F /* CryptosScreen.swift */; };
+		E9F48C632850237C005CEEAC /* NeuyDeFiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F48C622850237C005CEEAC /* NeuyDeFiApp.swift */; };
+		E9F48C652850237C005CEEAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F48C642850237C005CEEAC /* ContentView.swift */; };
+		E9F48C6728502384005CEEAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9F48C6628502384005CEEAC /* Assets.xcassets */; };
+		E9F48C6A28502384005CEEAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9F48C6928502384005CEEAC /* Preview Assets.xcassets */; };
+		E9F48C73285023D5005CEEAC /* NeuyNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F48C72285023D5005CEEAC /* NeuyNetwork.swift */; };
+		E9F48C75285029A9005CEEAC /* NeuyCryptoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F48C74285029A9005CEEAC /* NeuyCryptoManager.swift */; };
+		E9F48C7828503678005CEEAC /* CryptoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F48C7728503678005CEEAC /* CryptoListItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E91F3AF8285D48F500145118 /* IndicatorPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndicatorPoint.swift; sourceTree = "<group>"; };
+		E91F3AF9285D48F500145118 /* LineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineView.swift; sourceTree = "<group>"; };
+		E91F3AFA285D48F500145118 /* Legend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Legend.swift; sourceTree = "<group>"; };
+		E91F3AFB285D48F500145118 /* LineChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
+		E91F3AFC285D48F500145118 /* MagnifierRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagnifierRect.swift; sourceTree = "<group>"; };
+		E91F3AFD285D48F500145118 /* Path+QuadCurve.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Path+QuadCurve.swift"; sourceTree = "<group>"; };
+		E91F3AFE285D48F500145118 /* MultiLineChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiLineChartView.swift; sourceTree = "<group>"; };
+		E91F3AFF285D48F500145118 /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		E91F3B08285D495B00145118 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		E936F8632860CA28005688C3 /* NeuyCryptoDetailsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuyCryptoDetailsManager.swift; sourceTree = "<group>"; };
+		E936F8672860D8E5005688C3 /* NeuyCryptoDetailsGraphItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuyCryptoDetailsGraphItem.swift; sourceTree = "<group>"; };
+		E936F86A2863AA49005688C3 /* UIImage+Saving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Saving.swift"; sourceTree = "<group>"; };
+		E936F86C2863BADE005688C3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		E936F86E2863D0B7005688C3 /* SecurityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityManager.swift; sourceTree = "<group>"; };
+		E93B0B9A285AC7E7003CBDCC /* NeuyFavoritesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuyFavoritesManager.swift; sourceTree = "<group>"; };
+		E93B0B9E285ACC4E003CBDCC /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		E93B0BA0285ACCC9003CBDCC /* CryptoDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoDetailsScreen.swift; sourceTree = "<group>"; };
+		E96A9AD528FCA55B00EA9955 /* LiquidityPoolsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidityPoolsManager.swift; sourceTree = "<group>"; };
+		E96A9AD728FCD70C00EA9955 /* LiquidityPoolListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidityPoolListItem.swift; sourceTree = "<group>"; };
+		E96A9AD928FCE16F00EA9955 /* LiquidityPoolsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidityPoolsScreen.swift; sourceTree = "<group>"; };
+		E9A588C428729EFC001C6558 /* QuickLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLink.swift; sourceTree = "<group>"; };
+		E9A588C828733CE4001C6558 /* StakingListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StakingListItemView.swift; sourceTree = "<group>"; };
+		E9A588CE28754319001C6558 /* NeuyFriendAddressManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuyFriendAddressManager.swift; sourceTree = "<group>"; };
+		E9A588D028754399001C6558 /* FriendAddressListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendAddressListItem.swift; sourceTree = "<group>"; };
+		E9B477A92869E7E600CEAFE9 /* SegmentButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentButtonView.swift; sourceTree = "<group>"; };
+		E9B477AB2869E89600CEAFE9 /* NeuyDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuyDataManager.swift; sourceTree = "<group>"; };
+		E9BA274528764E1800C53EC6 /* Blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blur.swift; sourceTree = "<group>"; };
+		E9C61DAE2B43EEFC0033B2EC /* NSBundle+Version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSBundle+Version.swift"; sourceTree = "<group>"; };
+		E9D3E9E928ABE416008B8A0E /* View+BecomingVisible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+BecomingVisible.swift"; sourceTree = "<group>"; };
+		E9D66C92285243330038BE9F /* CryptosScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptosScreen.swift; sourceTree = "<group>"; };
+		E9D66C9A285262800038BE9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E9F48C5F2850237C005CEEAC /* Neuy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neuy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F48C622850237C005CEEAC /* NeuyDeFiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuyDeFiApp.swift; sourceTree = "<group>"; };
+		E9F48C642850237C005CEEAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E9F48C6628502384005CEEAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9F48C6928502384005CEEAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E9F48C72285023D5005CEEAC /* NeuyNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuyNetwork.swift; sourceTree = "<group>"; };
+		E9F48C74285029A9005CEEAC /* NeuyCryptoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuyCryptoManager.swift; sourceTree = "<group>"; };
+		E9F48C7728503678005CEEAC /* CryptoListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoListItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9F48C5C2850237C005CEEAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E93B0B99285AB8CE003CBDCC /* SwiftKeychainWrapper in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E91F3AF6285D48E000145118 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				E91F3AF7285D48F500145118 /* LineChart */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
+		E91F3AF7285D48F500145118 /* LineChart */ = {
+			isa = PBXGroup;
+			children = (
+				E91F3B08285D495B00145118 /* Helpers.swift */,
+				E91F3AF8285D48F500145118 /* IndicatorPoint.swift */,
+				E91F3AF9285D48F500145118 /* LineView.swift */,
+				E91F3AFA285D48F500145118 /* Legend.swift */,
+				E91F3AFB285D48F500145118 /* LineChartView.swift */,
+				E91F3AFC285D48F500145118 /* MagnifierRect.swift */,
+				E91F3AFD285D48F500145118 /* Path+QuadCurve.swift */,
+				E91F3AFE285D48F500145118 /* MultiLineChartView.swift */,
+				E91F3AFF285D48F500145118 /* Line.swift */,
+			);
+			path = LineChart;
+			sourceTree = "<group>";
+		};
+		E936F8692863AA28005688C3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E936F86A2863AA49005688C3 /* UIImage+Saving.swift */,
+				E9D3E9E928ABE416008B8A0E /* View+BecomingVisible.swift */,
+				E9C61DAE2B43EEFC0033B2EC /* NSBundle+Version.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E936F8712863E287005688C3 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				E936F86E2863D0B7005688C3 /* SecurityManager.swift */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		E936F8722863E2A8005688C3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E91F3AF6285D48E000145118 /* Charts */,
+				E936F8692863AA28005688C3 /* Extensions */,
+				E9F48C7128502398005CEEAC /* Network */,
+				E9BA274528764E1800C53EC6 /* Blur.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E93B0BA2285ACCD1003CBDCC /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				E96A9AD928FCE16F00EA9955 /* LiquidityPoolsScreen.swift */,
+				E9D66C92285243330038BE9F /* CryptosScreen.swift */,
+				E93B0BA0285ACCC9003CBDCC /* CryptoDetailsScreen.swift */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		E93B0BA3285ACCF2003CBDCC /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				E93B0B9E285ACC4E003CBDCC /* SettingsScreen.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		E9B477A82869E7B600CEAFE9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E9B477A92869E7E600CEAFE9 /* SegmentButtonView.swift */,
+				E9A588C428729EFC001C6558 /* QuickLink.swift */,
+				E9A588C828733CE4001C6558 /* StakingListItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E9D66C91285243090038BE9F /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				E93B0BA2285ACCD1003CBDCC /* Crypto */,
+				E93B0BA3285ACCF2003CBDCC /* Settings */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		E9D66C962852599F0038BE9F /* Neuy */ = {
+			isa = PBXGroup;
+			children = (
+				E9B477AB2869E89600CEAFE9 /* NeuyDataManager.swift */,
+				E9F48C74285029A9005CEEAC /* NeuyCryptoManager.swift */,
+				E93B0B9A285AC7E7003CBDCC /* NeuyFavoritesManager.swift */,
+				E936F8632860CA28005688C3 /* NeuyCryptoDetailsManager.swift */,
+				E9A588CE28754319001C6558 /* NeuyFriendAddressManager.swift */,
+				E96A9AD528FCA55B00EA9955 /* LiquidityPoolsManager.swift */,
+			);
+			path = Neuy;
+			sourceTree = "<group>";
+		};
+		E9F48C562850237C005CEEAC = {
+			isa = PBXGroup;
+			children = (
+				E9F48C612850237C005CEEAC /* NeuyDeFi */,
+				E9F48C602850237C005CEEAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9F48C602850237C005CEEAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9F48C5F2850237C005CEEAC /* Neuy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9F48C612850237C005CEEAC /* NeuyDeFi */ = {
+			isa = PBXGroup;
+			children = (
+				E9B477A82869E7B600CEAFE9 /* Views */,
+				E9D66C9A285262800038BE9F /* Info.plist */,
+				E936F8722863E2A8005688C3 /* Helpers */,
+				E9D66C91285243090038BE9F /* Screens */,
+				E9F48C7628502AE5005CEEAC /* Models */,
+				E9F48C702850238E005CEEAC /* Managers */,
+				E9F48C622850237C005CEEAC /* NeuyDeFiApp.swift */,
+				E9F48C642850237C005CEEAC /* ContentView.swift */,
+				E9F48C6628502384005CEEAC /* Assets.xcassets */,
+				E9F48C6828502384005CEEAC /* Preview Content */,
+				E936F86C2863BADE005688C3 /* Launch Screen.storyboard */,
+			);
+			path = NeuyDeFi;
+			sourceTree = "<group>";
+		};
+		E9F48C6828502384005CEEAC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E9F48C6928502384005CEEAC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E9F48C702850238E005CEEAC /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				E936F8712863E287005688C3 /* Security */,
+				E9D66C962852599F0038BE9F /* Neuy */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		E9F48C7128502398005CEEAC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E9F48C72285023D5005CEEAC /* NeuyNetwork.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E9F48C7628502AE5005CEEAC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E9F48C7728503678005CEEAC /* CryptoListItem.swift */,
+				E936F8672860D8E5005688C3 /* NeuyCryptoDetailsGraphItem.swift */,
+				E9A588D028754399001C6558 /* FriendAddressListItem.swift */,
+				E96A9AD728FCD70C00EA9955 /* LiquidityPoolListItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9F48C5E2850237C005CEEAC /* Neuy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F48C6D28502384005CEEAC /* Build configuration list for PBXNativeTarget "Neuy" */;
+			buildPhases = (
+				E9F48C5B2850237C005CEEAC /* Sources */,
+				E9F48C5C2850237C005CEEAC /* Frameworks */,
+				E9F48C5D2850237C005CEEAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Neuy;
+			packageProductDependencies = (
+				E93B0B98285AB8CE003CBDCC /* SwiftKeychainWrapper */,
+			);
+			productName = NeuyDeFi;
+			productReference = E9F48C5F2850237C005CEEAC /* Neuy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9F48C572850237C005CEEAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					E9F48C5E2850237C005CEEAC = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = E9F48C5A2850237C005CEEAC /* Build configuration list for PBXProject "NeuyDeFi" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9F48C562850237C005CEEAC;
+			packageReferences = (
+				E93B0B97285AB8CE003CBDCC /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */,
+			);
+			productRefGroup = E9F48C602850237C005CEEAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9F48C5E2850237C005CEEAC /* Neuy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9F48C5D2850237C005CEEAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E936F86D2863BADE005688C3 /* Launch Screen.storyboard in Resources */,
+				E9F48C6A28502384005CEEAC /* Preview Assets.xcassets in Resources */,
+				E9F48C6728502384005CEEAC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9F48C5B2850237C005CEEAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E96A9ADA28FCE16F00EA9955 /* LiquidityPoolsScreen.swift in Sources */,
+				E9A588C528729EFC001C6558 /* QuickLink.swift in Sources */,
+				E9F48C652850237C005CEEAC /* ContentView.swift in Sources */,
+				E9A588CF28754319001C6558 /* NeuyFriendAddressManager.swift in Sources */,
+				E936F86B2863AA49005688C3 /* UIImage+Saving.swift in Sources */,
+				E9BA274628764E1800C53EC6 /* Blur.swift in Sources */,
+				E9F48C73285023D5005CEEAC /* NeuyNetwork.swift in Sources */,
+				E91F3B07285D48F500145118 /* Line.swift in Sources */,
+				E91F3B02285D48F500145118 /* Legend.swift in Sources */,
+				E936F8682860D8E5005688C3 /* NeuyCryptoDetailsGraphItem.swift in Sources */,
+				E91F3B09285D495B00145118 /* Helpers.swift in Sources */,
+				E9D66C93285243330038BE9F /* CryptosScreen.swift in Sources */,
+				E9F48C632850237C005CEEAC /* NeuyDeFiApp.swift in Sources */,
+				E91F3B03285D48F500145118 /* LineChartView.swift in Sources */,
+				E936F8642860CA29005688C3 /* NeuyCryptoDetailsManager.swift in Sources */,
+				E9C61DAF2B43EEFC0033B2EC /* NSBundle+Version.swift in Sources */,
+				E91F3B04285D48F500145118 /* MagnifierRect.swift in Sources */,
+				E93B0BA1285ACCC9003CBDCC /* CryptoDetailsScreen.swift in Sources */,
+				E9A588D128754399001C6558 /* FriendAddressListItem.swift in Sources */,
+				E91F3B05285D48F500145118 /* Path+QuadCurve.swift in Sources */,
+				E91F3B06285D48F500145118 /* MultiLineChartView.swift in Sources */,
+				E9B477AA2869E7E600CEAFE9 /* SegmentButtonView.swift in Sources */,
+				E93B0B9F285ACC4E003CBDCC /* SettingsScreen.swift in Sources */,
+				E936F86F2863D0B7005688C3 /* SecurityManager.swift in Sources */,
+				E9A588C928733CE4001C6558 /* StakingListItemView.swift in Sources */,
+				E9F48C7828503678005CEEAC /* CryptoListItem.swift in Sources */,
+				E96A9AD828FCD70C00EA9955 /* LiquidityPoolListItem.swift in Sources */,
+				E9D3E9EA28ABE416008B8A0E /* View+BecomingVisible.swift in Sources */,
+				E91F3B01285D48F500145118 /* LineView.swift in Sources */,
+				E96A9AD628FCA55B00EA9955 /* LiquidityPoolsManager.swift in Sources */,
+				E9B477AC2869E89600CEAFE9 /* NeuyDataManager.swift in Sources */,
+				E93B0B9B285AC7E7003CBDCC /* NeuyFavoritesManager.swift in Sources */,
+				E9F48C75285029A9005CEEAC /* NeuyCryptoManager.swift in Sources */,
+				E91F3B00285D48F500145118 /* IndicatorPoint.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E9F48C6B28502384005CEEAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9F48C6C28502384005CEEAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9F48C6E28502384005CEEAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 15;
+				DEVELOPMENT_ASSET_PATHS = "\"NeuyDeFi/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NeuyDeFi/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is required to scan QR codes.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Used for authentication and access to secure areas of App.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.site.AppName;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E9F48C6F28502384005CEEAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 15;
+				DEVELOPMENT_ASSET_PATHS = "\"NeuyDeFi/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NeuyDeFi/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is required to scan QR codes.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Used for authentication and access to secure areas of App.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.site.AppName;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9F48C5A2850237C005CEEAC /* Build configuration list for PBXProject "NeuyDeFi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F48C6B28502384005CEEAC /* Debug */,
+				E9F48C6C28502384005CEEAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F48C6D28502384005CEEAC /* Build configuration list for PBXNativeTarget "Neuy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F48C6E28502384005CEEAC /* Debug */,
+				E9F48C6F28502384005CEEAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E93B0B97285AB8CE003CBDCC /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jrendel/SwiftKeychainWrapper";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E93B0B98285AB8CE003CBDCC /* SwiftKeychainWrapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E93B0B97285AB8CE003CBDCC /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */;
+			productName = SwiftKeychainWrapper;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E9F48C572850237C005CEEAC /* Project object */;
+}
