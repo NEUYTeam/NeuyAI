@@ -1,1 +1,1 @@
-# NEUYAI
+# NeuyAI
