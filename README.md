@@ -7,6 +7,11 @@ Repo includes:
 - Sample iOS App using NeuyAI Crypto API
 - Neuy ERC20 Solidity Contract
 - DefiLlama Neuy Adapter javascript file
+- APY 100% and APY 10% Staking Pool Source Code
+
+## Staking Pools 
+
+- This web source code can be run on your local computer, but does require a wallet such as Metamask installed in your browser.
 
 ## Sample App
 

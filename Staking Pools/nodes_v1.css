@@ -1,0 +1,136 @@
+﻿@charset "utf-8";input[type=text],input[type=password],textarea,select{border-color:#888;padding:5px;border:solid 1px #888;outline:0;font:13px/100% Verdana, Tahoma;box-shadow:rgba(0,0,0, 0.1) 0px 0px 8px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}input[type=password]:hover,input[type=text]:hover,textarea:hover,select:hover,input[type=text]:focus,textarea:focus,select:focus{border-color:#888;-webkit-box-shadow:0px 0px 6px #888;-moz-box-shadow:0px 0px 6px #888;box-shadow:0px 0px 6px #888}button.onwhite{cursor:pointer;border-color:#333;border:solid 1px #999;outline:0;font:13px/100% Verdana, Tahoma;text-align:center;background:#EEE;padding-bottom:2px;height:28px;line-height:28px}button.onwhiteleft{cursor:pointer;border-color:#333;border:solid 1px #999;margin-right:0px;outline:0;font:13px/100% Verdana, Tahoma;text-align:center;background:#EEE;padding-bottom:2px;height:28px;line-height:28px}button.onwhitemiddle{cursor:pointer;border-color:#333;border:solid 1px #999;margin:0px;outline:0;font:13px/100% Verdana, Tahoma;text-align:center;background:#EEE;padding-bottom:2px;height:28px;line-height:28px}button.onwhiteright{cursor:pointer;border-color:#333;border:solid 1px #999;margin-left:0px;outline:0;font:13px/100% Verdana, Tahoma;text-align:center;background:#EEE;padding-bottom:2px;height:28px;line-height:28px}button.onwhiteright:hover,button.onwhiteright:focus,button.onwhitemiddle:hover,button.onwhitemiddle:focus,button.onwhiteleft:hover,button.onwhiteleft:focus,button.onwhite:hover,button.onwhite:focus{border:solid 1px #555;-webkit-box-shadow:0px 0px 3px #AAA;-moz-box-shadow:0px 0px 3px #AAA;box-shadow:0px 0px 3px #AAA;text-decoration:none}button.oncharcoal{cursor:pointer;color:#FFF;border-color:#CCC;border:solid 1px #CCC;outline:0;font:13px/100% Verdana, Tahoma;text-align:center;background:#777;padding-bottom:2px;height:28px;line-height:28px}button.oncharcoalleft{cursor:pointer;color:#FFF;border-color:#CCC;border:solid 1px #CCC;margin-right:0px;outline:0;font:13px/100% Verdana, Tahoma;text-align:center;background:#777;padding-bottom:2px;height:28px;line-height:28px}button.oncharcoalmiddle{cursor:pointer;color:#FFF;border:solid 1px #CCC;margin:0px;outline:0;font:13px/100% Verdana, Tahoma;text-align:center;background:#777;padding-bottom:2px;height:28px;line-height:28px}button.oncharcoalright{cursor:pointer;color:#FFF;border-color:#CCC;border:solid 1px #CCC;margin-left:0px;outline:0;font:13px/100% Verdana, Tahoma;text-align:center;background:#777;padding-bottom:2px;height:28px;line-height:28px}button.oncharcoalright:hover,button.oncharcoalright:focus,button.oncharcoalmiddle:hover,button.oncharcoalmiddle:focus,button.oncharcoalleft:hover,button.oncharcoalleft:focus,button.oncharcoal:hover,button.oncharcoal:focus{border:solid 1px #FFF;-webkit-box-shadow:0px 0px 3px #DDD;-moz-box-shadow:0px 0px 3px #DDD;box-shadow:0px 0px 3px #DDD;text-decoration:none}button.greenoncharcoal{cursor:pointer;color:#FFF;border-color:#b4ff83;border:solid 1px #b4ff83;outline:0;font:13px/100% Verdana, Tahoma;text-align:center;background:#41a50F;padding-bottom:2px;height:28px;line-height:28px}button.greenoncharcoal:hover,button.greenoncharcoal:focus{border:solid 1px #d8ffbf;-webkit-box-shadow:0px 0px 3px #d8ffbf;-moz-box-shadow:0px 0px 3px #d8ffbf;box-shadow:0px 0px 3px #d8ffbf;text-decoration:none}span.buttontext{cursor:pointer;display:block;line-height:24px;vertical-align:top;text-decoration:none}button.greenoncharcoalleft{cursor: pointer;color: #FFFFFF;border-color: #b4ff83;border: solid 1px #b4ff83;margin-right: 0px;outline: 0;font:13px/100% Verdana, Tahoma;text-align:center;background:#41a50F;padding-bottom:2px;height: 28px;line-height: 28px;}button.greenoncharcoalleft:hover,button.greenoncharcoalleft:focus{border: solid 1px #d8ffbf;-webkit-box-shadow: 0px 0px 3px #d8ffbf;-moz-box-shadow: 0px 0px 3px #d8ffbf;box-shadow: 0px 0px 3px #d8ffbf;text-decoration: none;}button.greenoncharcoalright{cursor: pointer;color: #FFFFFF;border-color: #b4ff83;border: solid 1px #b4ff83;margin-left: 0px;outline: 0;font:13px/100% Verdana, Tahoma;text-align:center;background:#41a50F;padding-bottom:2px;height: 28px;line-height: 28px;}button.greenoncharcoalright:hover,button.greenoncharcoalright:focus{border: solid 1px #d8ffbf;-webkit-box-shadow: 0px 0px 3px #d8ffbf;-moz-box-shadow: 0px 0px 3px #d8ffbf;box-shadow: 0px 0px 3px #d8ffbf;text-decoration: none;}
+button.oncharcoal:active,button.oncharcoalmiddle:active,button.oncharcoalleft:active,button.oncharcoalright:active{border: solid 1px #000000;color: #000000;background:#BBBBBB;}
+button.onwhite:active,button.onwhiteleft:active,button.onwhitemiddle:active,button.onwhiteright:active{border: solid 1px #FFFFFF;color: #FFFFFF;background:#777777;}
+button.greenoncharcoal:active,button.greenoncharcoalleft:active,button.greenoncharcoalright:active{border: solid 1px #000000;color: #000000;background:#b4ff83;}
+td.titlebar {
+    padding: 8px 6px
+}
+
+div.titlebar, tr.titlebar {
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+div.frtitlemenu {
+    z-index: 999;
+    margin: 0;
+    padding: 0px;
+    height: 60px;
+    width: 100%;
+    position: fixed
+}
+
+td.titlebar:hover {
+    background-color: #888
+}
+
+body {
+    margin: 0
+}
+
+a.titlebar {
+    color: #FFF;
+}
+
+div.displayname, td.displayname {
+    background-color: #888
+}
+
+hr {
+    height: 1px;
+    border: none;
+    background-color: #C0C0C0
+}
+
+div.displayname, td.displayname {
+    background-image: url('../images/2x2p_black.png')
+}
+
+div.displaynamew, td.displaynamew {
+    background-image: url('../images/2x2p_white.png')
+}
+
+a.fhotolink {
+    COLOR: #000000;
+}
+
+a:link {
+    text-decoration: none
+}
+
+a:visited {
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: none
+}
+
+td {
+    font-size: 12px;
+    font-family: Verdana,Tahoma;
+}
+
+h1 {
+    font-family: "Helvetica Neue Thin", Arial, Verdana, Tahoma;
+}
+
+div.titlebar {
+    font-family: Helvetica, Verdana, Tahoma;
+}
+
+td.comments {
+    font-size: 12px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+textarea.commentta {
+    font-size: 12px;
+    font-family: Verdana, Tahoma;
+}
+
+textarea.messageta {
+    width: 100%;
+    font-size: 13px;
+    font-family: Verdana, Tahoma;
+}
+
+input.messageta {
+    margin: 0px 0px 3px 0px;
+    width: 200px;
+    font-size: 13px;
+    font-family: Verdana, Helvetica, Tahoma;
+}
+
+textarea.messageta {
+    width: 550px;
+    font-size: 13px;
+    font-family: Verdana, Helvetica, Tahoma;
+}
+
+table.uploadglow {
+    -webkit-box-shadow: 0px 0px 6px #FFF;
+    -moz-box-shadow: 0px 0px 6px #FFF;
+    box-shadow: 0px 0px 6px #FFF;
+}
+
+div.messagecontainer {
+    text-align: left;
+}
+
+select.messageto {
+    width: 190px;
+}
+
+td.frnav:hover {
+    cursor: pointer;
+    cursor: hand;
+    background-color: #3b7bc9;
+}
+button:hover {
+    cursor: pointer;
+    cursor: hand;
+}
