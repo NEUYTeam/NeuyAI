@@ -13,7 +13,7 @@ Repo includes:
 ## Arbitrage Script
 - Basic Arbitrage script written in javascript and using the ethers.js library. This code will run locally and make calls to the polygon network. The script searches +10 DEX's to find the best exchange results. Since script supports 2 paths for all exchanges there are literally hundreds of thousands of different routes that a token can take. The best time for arbitraging is during market volatility.
 
-### Link - More details about Arbitrage end points
+#### Link - More details about Arbitrage end points
 
 https://neuy.io/creating-a-crypto-arbitrage-and-trading-bot
 
@@ -26,7 +26,7 @@ https://neuy.io/creating-a-crypto-arbitrage-and-trading-bot
 
 - The iOS sample app will require an API key which you can get for free when logging into NeuyAI. 
 
-### Link
+#### Link
 
 https://nodes.neuy.io
 
