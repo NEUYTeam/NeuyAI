@@ -11,7 +11,13 @@ Repo includes:
 - Arbitrage Scripts
 
 ## Arbitrage Script
-- Basic Arbitrage script written in javascript and using the ethers.js library. This code will run locally and make calls to the polygon network. The script searches +10 DEX's to find the best exchange results. Since script supports 2 paths for all exchanges there are literally hundreds of thousands of different routes that a token can take. The best time for arbitraging is during market volatility.
+- Basic Arbitrage script written in javascript and using the ethers.js library. This code will run locally and make calls to the polygon network DEX's'. The script searches +10 DEX's to find the best arbitrage results. Since script supports 2 paths for all exchanges, there are literally hundreds of thousands of different routes that a token can take. The best time for arbitraging is during market volatility.
+
+- Although getting quotes doesn't require any approval. For any arbitraging to be able to be performed on your behalf, you will first need to approve the tokenin with the arbitrage contract. You can do this by using the NEUY swapping tool and only approve the amount of select token you want to arbitrage.
+
+#### Link - Swapping tool used for approval
+
+https://finance.neuy.io/swap/polygon/swap.aspx
 
 #### Link - More details about Arbitrage end points
 
@@ -20,11 +26,11 @@ https://neuy.io/creating-a-crypto-arbitrage-and-trading-bot
 
 ## Staking Pools 
 
-- This web source code can be run on your local computer, but does require a wallet such as Metamask installed in your browser.
+- This web source code written in javascript can be run on your local computer, but does require a wallet such as Metamask installed in your browser.
 
 ## Sample App
 
-- The iOS sample app will require an API key which you can get for free when logging into NeuyAI. 
+- The iOS sample app written in Swift and SwiftUI will require an API key which you can get for free when logging into NeuyAI. 
 
 #### Link
 
